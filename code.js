@@ -34,3 +34,11 @@ function isFive(input) {
         return false;
     }
 }
+
+//=================================//
+
+function isEven(input) {
+    return parseInt(input) % 2 === 0;
+}
+
+//=================================//
