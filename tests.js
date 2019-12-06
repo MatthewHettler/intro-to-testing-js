@@ -34,3 +34,24 @@ describe('sayHello', function () {
         expect(sayHello(false)).toBe("Hello, World!");
     });
 });
+
+describe('isFive', function () {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should return a boolean when called', function() {
+        expect(typeof isFive()).toBe("boolean");
+    });
+    it('should return true when 5 is passed', function() {
+        expect(isFive(5)).toBe(true);
+    });
+    // it('should return the string "Hello, Alex!" when executed', function() {
+    //     expect(sayHello("Alex")).toBe("Hello, Alex!");
+    // });
+    // it('should return the string "Hello, Pat!" when executed', function() {
+    //     expect(sayHello("Pat")).toBe("Hello, Pat!");
+    // });
+    // it('should return the string "Hello, World!" when executed', function() {
+    //     expect(sayHello(false)).toBe("Hello, World!");
+    // });
+});
