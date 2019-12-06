@@ -42,3 +42,17 @@ function isEven(input) {
 }
 
 //=================================//
+
+function isVowel(input) {
+    return /[aeiouAEIOU]/.test(input) && typeof input == "string";
+}
+
+//=================================//
+
+function add(x,y) {
+    x = parseFloat(x);
+    y = parseFloat(y);
+    if (typeof x && y === "numbers") {
+        return (x) + (y);
+    }
+}
